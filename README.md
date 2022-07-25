@@ -12,7 +12,7 @@
 Start a development server with:
 
 ```
-stack build --exec test-minimal
+stack build --exec login-app
 ```
 
 ## Documentation
