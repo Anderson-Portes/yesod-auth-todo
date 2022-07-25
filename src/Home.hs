@@ -85,4 +85,4 @@ postHomeR = do
           liftIO $ print (task userId)
           runDB $ insert (task userId)
           redirect HomeR
-        Nothing -> redirect HomeR
+        Nothing -> redirect LogoutR

@@ -2,5 +2,5 @@
 /login LoginR GET POST
 /register RegisterR GET POST
 /logout LogoutR GET
-/static StaticR Static getStatic
 !/delete/#TasksId DeleteR GET POST
+/static StaticR Static getStatic
